@@ -1,0 +1,24 @@
+.width{
+    width: 555px;
+    background-color: #E5E9EA !important;
+}
+
+.card-details{
+    background-color: #45403D;
+    width: 350px;
+    height: 550px;
+}
+.button{
+    background-color: #F1C40F;
+    width: 350px;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    background-color: #ECF0F1;
+    margin-top: 100px !important;
+}
+
+.fa-times{
+    display: none;
+}

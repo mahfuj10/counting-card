@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-------------------- tailwind css ------------------>
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!----------------------- font awsome ----------------->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!----------------------- css ------------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+<main class="flex justify-center m-auto items-center gap-32"> 
+    
+<section class="mt-32">
+
+<article class="flex bg-yellow-100 width p-6 mb-6">
+
+<span>
+        <p class="font-semibold">Denim T-Shirt</p>
+        <p class="font-light" style="font-size: 12px;">Ref: 045097456</p>
+</span>
+
+<span class="ml-20 font-semibold">
+        <p>Blue</p>
+</span>
+
+<span class="ml-20 mt-2">
+        <p class="font-semibold" id="count-tshirt">1</p>
+</span>
+
+<span class="ml-2">
+        <p><i class="fas fa-plus-square"  id="plus-btn"></i></p>
+        <p><i class="fas fa-minus-circle" id="minus-btn"></i></p>
+</span>
+
+<span class="ml-20 mt-2 font-semibold">
+        <p><span id="product-price">150</span>.00 USD</p>
+</span>
+
+<span class="absolute mt-2" style="margin-left: 29%">
+        <i class="fas fa-times"></i>
+</span>
+
+</article>
+
+
+<article class="flex bg-yellow-100 width p-6 mb-6">
+
+    <span>
+            <p class="font-semibold">Nike Shoe</p>
+            <p class="font-light" style="font-size: 12px;">Ref: 045097456</p>
+    </span>
+    
+    <span class="ml-20 font-semibold">
+            <p>Blue</p>
+    </span>
+    
+    <span class="ml-20 mt-2">
+            <p class="font-semibold" id="count-shirt">1</p>
+    </span>
+    
+    <span class="ml-2">
+            <p><i class="fas fa-plus-square" id="plus-2"></i></p>
+            <p><i class="fas fa-minus-circle" id="minus-2"></i></p>
+    </span>
+    
+    <span class="ml-20 mt-2 font-semibold">
+            <p> <span id="shoe-price">185</span>.00 USD</p>
+    </span>
+    
+    <span class="absolute mt-2" style="margin-left: 29%;">
+            <i class="fas fa-times"></i>
+    </span>
+    
+</article>
+
+
+<article class="flex bg-yellow-100 width p-6 mb-6">
+
+    <span>
+            <p class="font-semibold">Denim Pant</p>
+            <p class="font-light" style="font-size: 12px;">Ref: 045097456</p>
+    </span>
+    
+    <span class="ml-20 font-semibold">
+            <p>Blue</p>
+    </span>
+    
+    <span class="ml-20 mt-2">
+            <p class="font-semibold" id="count-shoe">1</p>
+    </span>
+    
+    <span class="ml-2">
+            <p><i class="fas fa-plus-square" id="plus-3"></i></p>
+            <p><i class="fas fa-minus-circle" id="minus-3"></i></p>
+    </span>
+    
+    <span class="ml-20 mt-2 font-semibold">
+            <p id="pant-price">115.00 USD</p>
+    </span>
+    
+    <span class="absolute mt-2" style="margin-left: 29%;">
+            <i class="fas fa-times"></i>
+    </span>
+    
+</article>
+
+
+
+<article class="flex bg-yellow-100 width p-6 mb-6">
+
+    <span>
+            <p class="font-semibold">Smart Watch</p>
+            <p class="font-light" style="font-size: 12px;">Ref: 045097456</p>
+    </span>
+    
+    <span class="ml-20 font-semibold">
+            <p>Blue</p>
+    </span>
+    
+    <span class="ml-20 mt-2">
+            <p class="font-semibold" id="count-watch">1</p>
+    </span>
+    
+    <span class="ml-2">
+            <p><i class="fas fa-plus-square" id="plus-4"></i></p>
+            <p><i class="fas fa-minus-circle" id="minus-4"></i></p>
+    </span>
+    
+    <span class="ml-20 mt-2 font-semibold">
+            <p id="watch-price">190.00 USD</p>
+    </span>
+    
+    <span class="absolute mt-2" style="margin-left: 29%;">
+            <i class="fas fa-times"></i>
+    </span>
+    
+</article>
+
+</section>
+
+
+<section class="shadow-2xl">
+
+<article class="card-details px-16 mt-5 ">
+
+<h1 class="text-3xl text-yellow-300 pt-14">Card Details</h1>
+<p class="text-lg font-semibold mt-16 text-gray-300">Select Card Type</p>
+<span class="flex mt-4">
+
+    <i class="far fa-circle mt-1 text-white"></i><i class="far fa-circle mt-1 text-white"></i>
+    <p class="italic ml-8 text-gray-300">VISA</p>
+    <p class="italic ml-8 text-gray-300">VERVE</p>
+</span>
+
+<p class="text-lg font-semibold mt-16 text-gray-300">Card Number</p>
+<hr class="mt-5">
+
+<aside class="mt-8">
+    <span class="text-gray-300">Expiry Date</span><span class="ml-14 text-gray-300">CW</span><br>
+    <span class="text-gray-300">----/----/----/</span><span class="ml-9 text-gray-300">------</span>
+</aside>
+
+<aside class="mt-10 text-gray-300" > SUBTOTAL : <span id="sub-total">640 </span> USD</aside>
+
+
+</article>
+<aside class="button p-7 text-center font-semibold">
+Checkout
+</aside>
+
+
+</section>
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
